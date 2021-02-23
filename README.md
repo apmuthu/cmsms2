@@ -12,6 +12,7 @@
 * Create your Database with user and non blank password
 * Execute the `cmsms_2215.sql` into the Database created above
 * Upload the core files to your application or web root
+* Enter the Database credentials into the config.php file (make it readonly after such changes)
 
 ## Default Access credentials
 * Default Admin login **admin**
