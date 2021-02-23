@@ -1,0 +1,5 @@
+http://localhost/cmsms2
+
+http://localhost/cmsms2/admin
+
+admin / pwd123
