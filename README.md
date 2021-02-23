@@ -6,7 +6,13 @@
 * No installation Wizard needed
 
 # Source for this fork
-* [cmsms-2.2.15-install.expanded.zip](http://s3.amazonaws.com/cmsms/downloads/14831/cmsms-2.2.15-install.expanded.zip)
+* 2020-11-27: [cmsms-2.2.15-install.expanded.zip](http://s3.amazonaws.com/cmsms/downloads/14831/cmsms-2.2.15-install.expanded.zip)
+
+## Vulnerability and Fix
+* 2020-12-25: [Authenticated Remote Control Execution](https://infosecresearchlab.blogspot.com/2020/12/cms-made-simple-2215-authenticated-rce.html)
+* Do not disable functions in `php.ini` as CMS Made Simple used PHP functions like eval
+* This vulnerability needs Administrator Access
+* When **Add `custom_code`** feature is not in use, move the `admin/editusertag.php` file beyond webroot
 
 # Installation Procedure
 * Create your Database with user and non blank password
